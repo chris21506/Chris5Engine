@@ -47,5 +47,8 @@
     <ClInclude Include="Include\Core\CShape.h">
       <Filter>Archivos de encabezado\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Include\ECS\SparseSet.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

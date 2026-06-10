@@ -178,6 +178,7 @@
   <ItemGroup>
     <ClInclude Include="Include\Core\CShape.h" />
     <ClInclude Include="Include\Core\Window.h" />
+    <ClInclude Include="Include\ECS\SparseSet.h" />
     <ClInclude Include="Include\ECS\Types.h" />
     <ClInclude Include="Include\Prerequisites.h" />
   </ItemGroup>
