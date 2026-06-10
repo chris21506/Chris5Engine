@@ -16,10 +16,15 @@ Window::Window(int width, int height, conts std::string& title) {
 	}
 }
 
+
+Window::Window() {
+  //SAFE_PTR_RELEASE(M_window);
+}
+
 bool
 Window::isOpen() const {
   // Check that window is not null
-  if (!m_window) {
+  if (m_window) {
 	return m_window && m_window->isOpen();
   }
   else {
@@ -56,4 +61,30 @@ Window::display() {
   else {
 	ERROR("Window", "display", "Window is null");
   }
+}
+
+void
+Window::close() {
+  if (m_window) {
+	  m_window->close();
+  }
+  else {
+	ERROR("Window", "close", "Window is null");
+  }
+}
+
+void
+Window::update() {
+  // Almacena el deltaTime una sola vez
+	deltaTime = clock.restart();
+
+}
+
+void
+Window::render() {
+}
+
+void
+Window::destroy() {
+  m_window.reset();
 }
