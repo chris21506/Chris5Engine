@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Core">
+      <UniqueIdentifier>{91c02167-9b03-419b-8a9a-f45fd5f9c0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Core">
+      <UniqueIdentifier>{9884d0ea-8c4b-4bad-b374-f6fae4e41a19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Core\Window.cpp">
+      <Filter>Archivos de recursos\Core</Filter>
+    </ClCompile>
     <ClCompile Include="Source\main.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Prerequisites.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Window.h">
+      <Filter>Archivos de encabezado\Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

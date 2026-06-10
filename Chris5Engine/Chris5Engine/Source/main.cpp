@@ -1,9 +1,13 @@
-#include <SFML/Graphics.hpp>
+#include "Prerequisites.h"
+
+sf::CircleShape shape(50.f);
 
 int main()
 {
     // create the window
     sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "My window");
+    // set the shape color to green
+    shape.setFillColor(sf::Color(100, 250, 50));
 
     // run the program as long as the window is open
     while (window.isOpen())
@@ -20,7 +24,7 @@ int main()
         window.clear(sf::Color::Black);
 
         // draw everything here...
-        // window.draw(...);
+        window.draw(shape);
 
         // end the current frame
         window.display();
