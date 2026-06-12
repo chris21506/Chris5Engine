@@ -50,5 +50,17 @@
     <ClInclude Include="Include\ECS\SparseSet.h">
       <Filter>Archivos de encabezado\ECS</Filter>
     </ClInclude>
+    <ClInclude Include="Include\ECS\ComponentPool.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Registry.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\System.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\View.h">
+      <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
