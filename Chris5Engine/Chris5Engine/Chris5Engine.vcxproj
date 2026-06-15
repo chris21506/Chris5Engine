@@ -179,6 +179,8 @@
     <ClInclude Include="Include\Core\CShape.h" />
     <ClInclude Include="Include\Core\Window.h" />
     <ClInclude Include="Include\ECS\ComponentPool.h" />
+    <ClInclude Include="Include\ECS\Components\Render.h" />
+    <ClInclude Include="Include\ECS\Components\Transform.h" />
     <ClInclude Include="Include\ECS\Registry.h" />
     <ClInclude Include="Include\ECS\SparseSet.h" />
     <ClInclude Include="Include\ECS\System.h" />

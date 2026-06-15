@@ -22,6 +22,12 @@
     <Filter Include="Archivos de encabezado\ECS">
       <UniqueIdentifier>{60995a54-6d9c-4b3e-9133-98aa46dbf1ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ECS\Components">
+      <UniqueIdentifier>{258a93d1-1c3d-4885-85ac-12d401b74e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ECS\Systems">
+      <UniqueIdentifier>{344987b4-7c6a-45a1-856b-0f50bd44d079}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Core\Window.cpp">
@@ -61,6 +67,12 @@
     </ClInclude>
     <ClInclude Include="Include\ECS\View.h">
       <Filter>Archivos de encabezado\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\Transform.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\Render.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
