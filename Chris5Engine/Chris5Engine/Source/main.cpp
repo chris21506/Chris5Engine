@@ -12,13 +12,20 @@ Window g_window(Window(800, 600, "Labrid Engine"));
 
 ECS::Registry registry;
 
-void destroy() {
-  //SAFE_PTR_RELEASE(g_window);
+void destroy() 
+{
+  ImGui::SFML::Shutdown();
 }
 
 int
 main() {
   registry.AddSystem<ECS::RenderSystem>(g_window);
+
+  // Inicializar ImGui-SFML
+  if (!ImGui::Init(g_window.m_window))
+  {
+    return -1;
+  }
   
   ECS::EntityID circle = registry.CreateEntity();
   registry.AddComponent<ECS::Transform>(circle, sf::Vector2f{ 400.f, 300.f });

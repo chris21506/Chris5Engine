@@ -92,11 +92,11 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <SDLCheck>No (/sdl)</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>ISO C++17 Standard (/std:c++17)</LanguageStandard>
       <LanguageStandard_C>Default (Legacy MSVC)</LanguageStandard_C>
-      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;$(SolutionDir)ThirdParties\imgui-docking;$(SolutionDir)ThirdParties\imgui-sfml-3.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>Yes(/MP)</MultiProcessorCompilation>
       <IntrinsicFunctions>Yes(/Oi)</IntrinsicFunctions>
     </ClCompile>
@@ -118,7 +118,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>ISO C++17 Standard (/std:c++17)</LanguageStandard>
       <LanguageStandard_C>Default (Legacy MSVC)</LanguageStandard_C>
-      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;$(SolutionDir)ThirdParties\imgui-docking;$(SolutionDir)ThirdParties\imgui-sfml-3.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>Yes(/MP)</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -133,11 +133,11 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <SDLCheck>No (/sdl)</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>ISO C++17 Standard (/std:c++17)</LanguageStandard>
       <LanguageStandard_C>Default (Legacy MSVC)</LanguageStandard_C>
-      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;$(SolutionDir)ThirdParties\imgui-docking;$(SolutionDir)ThirdParties\imgui-sfml-3.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>Yes(/MP)</MultiProcessorCompilation>
       <IntrinsicFunctions>Yes(/Oi)</IntrinsicFunctions>
     </ClCompile>
@@ -155,11 +155,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>Yes(/Oi)</IntrinsicFunctions>
       <SDLCheck>No (/sdl)</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>ISO C++17 Standard (/std:c++17)</LanguageStandard>
       <LanguageStandard_C>Default (Legacy MSVC)</LanguageStandard_C>
-      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./Include/;$(SolutionDir)ThirdParties\SFML-3.1.0\Include;$(SolutionDir)ThirdParties\imgui-docking;$(SolutionDir)ThirdParties\imgui-sfml-3.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>Yes(/MP)</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -171,6 +171,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ThirdParties\imgui-1.91.9b-docking\imgui.cpp" />
+    <ClCompile Include="..\ThirdParties\imgui-1.91.9b-docking\imgui_demo.cpp" />
+    <ClCompile Include="..\ThirdParties\imgui-1.91.9b-docking\imgui_draw.cpp" />
+    <ClCompile Include="..\ThirdParties\imgui-1.91.9b-docking\imgui_tables.cpp" />
+    <ClCompile Include="..\ThirdParties\imgui-1.91.9b-docking\imgui_widgets.cpp" />
+    <ClCompile Include="..\ThirdParties\imgui-sfml-3.0\imgui-SFML.cpp" />
     <ClCompile Include="Source\Core\CShape.cpp" />
     <ClCompile Include="Source\Core\Window.cpp" />
     <ClCompile Include="Source\main.cpp" />
