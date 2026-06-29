@@ -104,5 +104,11 @@
     <ClInclude Include="Include\ECS\Systems\RenderSystem.h">
       <Filter>Archivos de encabezado\ECS\Systems</Filter>
     </ClInclude>
+    <ClInclude Include="Include\ECS\Systems\CameraSystem.h">
+      <Filter>Archivos de encabezado\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\Camera.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
