@@ -187,12 +187,16 @@
     <ClInclude Include="Include\ECS\ComponentPool.h" />
     <ClInclude Include="Include\ECS\Components\Camera.h" />
     <ClInclude Include="Include\ECS\Components\Render.h" />
+    <ClInclude Include="Include\ECS\Components\SteeringAgentComponent.h" />
+    <ClInclude Include="Include\ECS\Components\SteeringBehaviorComponent.h" />
     <ClInclude Include="Include\ECS\Components\Transform.h" />
+    <ClInclude Include="Include\ECS\Physics\SteeringMath.h" />
     <ClInclude Include="Include\ECS\Registry.h" />
     <ClInclude Include="Include\ECS\SparseSet.h" />
     <ClInclude Include="Include\ECS\System.h" />
     <ClInclude Include="Include\ECS\Systems\CameraSystem.h" />
     <ClInclude Include="Include\ECS\Systems\RenderSystem.h" />
+    <ClInclude Include="Include\ECS\Systems\SteeringSystem.h" />
     <ClInclude Include="Include\ECS\Systems\UISystem.h" />
     <ClInclude Include="Include\ECS\Types.h" />
     <ClInclude Include="Include\ECS\View.h" />

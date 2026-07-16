@@ -34,6 +34,9 @@
     <Filter Include="Archivos de recursos\Imgui">
       <UniqueIdentifier>{dc248424-d7ac-40d2-9296-6494ab9583e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\ECS\Physics">
+      <UniqueIdentifier>{829a0af8-656b-4925-98ab-cc76d1d6ebdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Core\Window.cpp">
@@ -109,6 +112,18 @@
     </ClInclude>
     <ClInclude Include="Include\ECS\Components\Camera.h">
       <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\SteeringAgentComponent.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\SteeringBehaviorComponent.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Systems\SteeringSystem.h">
+      <Filter>Archivos de encabezado\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Physics\SteeringMath.h">
+      <Filter>Archivos de encabezado\ECS\Physics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
