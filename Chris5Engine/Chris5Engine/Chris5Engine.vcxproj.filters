@@ -113,10 +113,10 @@
     <ClInclude Include="Include\ECS\Components\Camera.h">
       <Filter>Archivos de encabezado\ECS\Components</Filter>
     </ClInclude>
-    <ClInclude Include="Include\ECS\Components\SteeringAgentComponent.h">
+    <ClInclude Include="Include\ECS\Components\SteeringAgent.h">
       <Filter>Archivos de encabezado\ECS\Components</Filter>
     </ClInclude>
-    <ClInclude Include="Include\ECS\Components\SteeringBehaviorComponent.h">
+    <ClInclude Include="Include\ECS\Components\SteeringBehavior.h">
       <Filter>Archivos de encabezado\ECS\Components</Filter>
     </ClInclude>
     <ClInclude Include="Include\ECS\Systems\SteeringSystem.h">

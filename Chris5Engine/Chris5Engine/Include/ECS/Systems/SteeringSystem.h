@@ -4,8 +4,8 @@
 #include "../System.h"
 #include "../Registry.h"
 #include "../Components/Transform.h"
-#include "../Components/SteeringAgentComponent.h"
-#include "../Components/SteeringBehaviorComponent.h"
+#include "../Components/SteeringAgent.h"
+#include "../Components/SteeringBehavior.h"
 #include "../Physics/SteeringMath.h"
 
 namespace ECS {

@@ -1,4 +1,4 @@
-// Archivo: ECS/Components/SteeringAgentComponent.h
+// Archivo: ECS/Components/SteeringAgent.h
 #pragma once
 
 #include <SFML/System/Vector2f.hpp>
@@ -6,7 +6,7 @@
 
 namespace ECS {
 
-    struct SteeringAgentComponent {
+    struct SteeringAgent {
         // --- ESTADO DINÁMICO ---
         sf::Vector2f velocity;      // Velocidad actual del agente (px/s)
 
@@ -16,7 +16,7 @@ namespace ECS {
         float mass;                 // Inercia. A mayor masa, giros más pesados y menor aceleración
 
         // --- CONSTRUCTOR ---
-        SteeringAgentComponent(
+        SteeringAgent(
             float maxSpd = 200.0f,
             float maxFrc = 300.0f,
             float m = 1.0f)

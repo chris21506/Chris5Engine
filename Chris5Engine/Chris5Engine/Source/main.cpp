@@ -6,8 +6,8 @@
 #include "ECS/Components/Render.h"
 
 // --- NUEVOS INCLUDES PARA COMPORTAMIENTOS AUTÓNOMOS ---
-#include "ECS/Components/SteeringAgentComponent.h"
-#include "ECS/Components/SteeringBehaviorComponent.h"
+#include "ECS/Components/SteeringAgent.h"
+#include "ECS/Components/SteeringBehavior.h"
 #include "ECS/Systems/SteeringSystem.h"
 
 #include "ECS/Systems/RenderSystem.h"

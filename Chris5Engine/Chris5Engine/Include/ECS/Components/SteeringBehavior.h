@@ -1,4 +1,4 @@
-// Archivo: ECS/Components/SteeringBehaviorComponent.h
+// Archivo: ECS/Components/SteeringBehavior.h
 #pragma once
 
 #include <SFML/System/Vector2f.hpp>
@@ -18,7 +18,7 @@ namespace ECS {
         OBSTACLE_AVOIDANCE
     };
 
-    struct SteeringBehaviorComponent {
+    struct SteeringBehavior {
         // --- ESTADO ACTIVO ---
         SteeringType activeBehavior;
 
@@ -39,7 +39,7 @@ namespace ECS {
         float boxLength;             // Largo de la caja de detección / "radar" frontal
 
         // --- CONSTRUCTOR ---
-        SteeringBehaviorComponent()
+        SteeringBehavior()
             : activeBehavior(SteeringType::NONE)
             , targetPosition(0.0f, 0.0f)
             , targetEntityID(0)
