@@ -186,6 +186,12 @@
     <ClInclude Include="Include\Core\Window.h" />
     <ClInclude Include="Include\ECS\ComponentPool.h" />
     <ClInclude Include="Include\ECS\Components\Camera.h" />
+    <ClInclude Include="Include\ECS\Components\Checkpoint.h" />
+    <ClInclude Include="Include\ECS\Components\LapCounter.h" />
+    <ClInclude Include="Include\ECS\Components\Obstacle.h" />
+    <ClInclude Include="Include\ECS\Components\PathFollower.h" />
+    <ClInclude Include="Include\ECS\Components\PlayerController.h" />
+    <ClInclude Include="Include\ECS\Components\RaceStats.h" />
     <ClInclude Include="Include\ECS\Components\Render.h" />
     <ClInclude Include="Include\ECS\Components\SteeringAgent.h" />
     <ClInclude Include="Include\ECS\Components\SteeringBehavior.h" />

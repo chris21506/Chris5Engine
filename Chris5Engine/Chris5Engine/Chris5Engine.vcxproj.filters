@@ -125,5 +125,23 @@
     <ClInclude Include="Include\ECS\Physics\SteeringMath.h">
       <Filter>Archivos de encabezado\ECS\Physics</Filter>
     </ClInclude>
+    <ClInclude Include="Include\ECS\Components\Obstacle.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\PlayerController.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\PathFollower.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\Checkpoint.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\RaceStats.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ECS\Components\LapCounter.h">
+      <Filter>Archivos de encabezado\ECS\Components</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
